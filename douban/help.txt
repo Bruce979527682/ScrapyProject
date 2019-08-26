@@ -1,0 +1,6 @@
+创建爬虫命令：scrapy startproject douban
+创建爬虫：
+cd douban
+scrapy genspider movie movie.douban.com
+执行爬虫命令：scrapy crawl movie
+查看命令帮助命令：scrapy

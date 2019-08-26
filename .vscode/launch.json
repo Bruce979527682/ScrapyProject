@@ -1,0 +1,41 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Scrapy movie",
+            "type": "python",
+            "request": "launch",
+            "module": "scrapy",
+            "args": [
+                "crawl",
+                "movie",
+                "-o",
+                "movie.json"
+            ],
+            "cwd": "${workspaceFolder}/douban"
+        },
+        {
+            "name": "Scrapy quotes",
+            "type": "python",
+            "request": "launch",
+            "module": "scrapy",
+            "args": [
+                "crawl",
+                "quotes",
+                "-o",
+                "quotes.json"
+            ],
+            "cwd": "${workspaceFolder}/tutorial"
+        }    
+    ]
+}
