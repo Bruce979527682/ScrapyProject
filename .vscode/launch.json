@@ -35,7 +35,20 @@
                 "-o",
                 "quotes.json"
             ],
-            "cwd": "${workspaceFolder}/tutorial"
+            "cwd": "${workspaceFolder}/tutorial"           
+        },
+        {
+            "name": "Scrapy lottery",
+            "type": "python",
+            "request": "launch",
+            "module": "scrapy",
+            "args": [
+                "crawl",
+                "lottery",
+                "-o",
+                "lottery.json"
+            ],
+            "cwd": "${workspaceFolder}/lottery"
         }    
     ]
 }
