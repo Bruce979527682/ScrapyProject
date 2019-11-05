@@ -38,17 +38,17 @@
             "cwd": "${workspaceFolder}/tutorial"           
         },
         {
-            "name": "Scrapy lottery",
+            "name": "Scrapy ticket",
             "type": "python",
             "request": "launch",
             "module": "scrapy",
             "args": [
                 "crawl",
-                "lottery",
+                "ticket",
                 "-o",
-                "lottery.json"
+                "ticket.json"
             ],
-            "cwd": "${workspaceFolder}/lottery"
+            "cwd": "${workspaceFolder}/shuangseqiu"
         }    
     ]
 }
