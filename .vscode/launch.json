@@ -48,7 +48,7 @@
                 "-o",
                 "ticket.json"
             ],
-            "cwd": "${workspaceFolder}/shuangseqiu"
+            "cwd": "${workspaceFolder}/lottery"
         }    
     ]
 }

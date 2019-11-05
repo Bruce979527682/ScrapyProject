@@ -8,4 +8,4 @@ class TicketSpider(scrapy.Spider):
     start_urls = ['http://wx.zhcw.com/']
 
     def parse(self, response):
-        print('start')
+        pass
