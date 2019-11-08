@@ -10,5 +10,12 @@ import scrapy
 
 class LotteryItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    name = scrapy.Field()
+    
+class TicketItem(scrapy.Item):
+    # define the fields for your item here like:
+    date = scrapy.Field()
+    num = scrapy.Field()
+    blue = scrapy.Field()
+    red = scrapy.Field()
+    remark = scrapy.Field()
